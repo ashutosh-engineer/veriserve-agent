@@ -7,7 +7,7 @@ VeriCore: Verifiable Self-Serving Agents via Unsat-Core Constraint Pruning
 > *Neuro-Symbolic Control & Formal SMT Verification for Resource-Constrained Autonomous LLM Agents*
 
 ## Overview
-Standard Large Language Model (LLM) agents rely on probabilistic prompting to obey safety, latency, and budget constraints—frequently failing on long-horizon tasks. **VeriServe-Z3** decouples semantic planning (LLM) from formal verification (Z3 SMT Solver).
+Standard Large Language Model (LLM) agents rely on probabilistic prompting to obey safety, latency, and budget constraints—frequently failing on long-horizon tasks. **VeriServe** decouples semantic planning (LLM) from formal verification (Z3 SMT Solver).
 
 ### Key Contributions
 1. **Formal SMT Constraint Gate:** Verifies candidate agent plans against hard resource (`cost`, `latency`) and safety (`PII`, `DB snapshot`) predicates prior to execution.
